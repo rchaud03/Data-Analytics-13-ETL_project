@@ -17,7 +17,7 @@ This file is used by the scripts to connect to the local instance of PostgreSQL.
 1. Create a `.env` in the root of the respository. similar to:
 ```
 DB_USER="<database_username>"
-UDB_PASSWORD="<database_password>"
+DB_PASSWD="<database_password>"
 ```
 
 ### Setup Database
@@ -59,7 +59,7 @@ Two datasets were gathered from [Kaggle](https://www.kaggle.com)
     * Removed unneeded columns.
     * Filled NaN values in the `reviews_from_users` column with `0`.
     * Filled NaN values in the `reviews_from_critics` column with `0`.
-    * Relaced NaN values in the `description` column with an empty string.
+    * Replaced NaN values in the `description` column with an empty string.
 
 * imdb-rating
     * Removed unneeded columns.
